@@ -6,7 +6,7 @@ def add(arg1,arg2):
     try:
         return int(arg1)+int(arg2)
     except ValueError: 
-        print("Saisir un entier.") 
+        print("Vous devez saisir un entier.") 
 
 def sous(arg1,arg2):
     try:
